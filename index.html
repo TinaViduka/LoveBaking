@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE Baking</title>
+    <!--Linking Font Awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!--Linking Swiper CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/stil.css" />
+ </head>
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">LOVE Baking 🍰</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">O nama</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recipe" class="nav-link">Recepti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#review" class="nav-link">Recenzije</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Kontakt</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero-->
+        <section class="hero-section" id="hero">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Najbolji recepti</h2>
+                    <h3 class="subtitle">Pripremi nešto slatko i zabavno danas</h3>
+                    <p class="description">Otkrij svijet najslađih kolača, cupcakesa i poslastica koje će ti izmamiti osmijeh na lice! 
+                    Na stranici te čekaju jednostavni i zabavni recepti – od brzih i lakih slastica za svaki dan do kreativnih ideja koje 
+                    razveseljavaju i tijelo i dušu. Svaka priprema je prilika za uživanje u okusima, mirisima i boji koje čine svaki dan slađim.</p>
+                    
+                    <div class="buttons">
+                        <a href="#" class="button browse-now">Otkrij recepte</a>
+                        <a href="#" class="button contact-us">Pišite nam</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="slike/makaroni.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!--O nama-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="slike/o-nama.png" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">O nama</h2>
+                    <p class="text">"LOVE Baking" je stranica posvećena svima koji vole peći i uživati u slasticama. 
+                    Na stranici se mogu pronaći razni recepti za kolače i deserte, jednostavni za pripremu i idealni 
+                    za svaku priliku. Osim recepata, tu su i recenzije ljudi koji su već isprobali slastice, pa posjetitelji
+                    mogu dobiti dodatnu inspiraciju i savjete. Stranica također nudi mogućnost da se posjetitelji jave putem 
+                    kontakt forme i podijele vlastite ideje ili iskustva. Cilj stranice je pružiti mjesto na kojem se dijeli 
+                    ljubav prema pečenju i potiče kreativnost u kuhinji. 🍪🎂
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/" class="social-link" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Recepti -->
+        <section class="recipe-section" id="recipe">
+            <h2 class="section-title">Recepti</h2>
+           <div class="section-content">
+                <ul class="recipe-list">
+                    <li class="recipe-item">
+                        <img src="slike/Brownies.jpg" alt="Brownies" class="recipe-image">
+                        <h3 class="name">Čokoladni brownies</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>150 g čokolade</li>
+                            <li>100 g maslaca</li>
+                            <li>150 g šećera</li>
+                            <li>2 jaja</li>
+                            <li>100 g brašna</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Otopi čokoladu i maslac. Umiješaj šećer i jaja, dodaj brašno. Pecite 25 min na 180°C.</p>
+                    </li>
+                    <li class="recipe-item">
+                        <img src="slike/Cheesecake.jpg" alt="Cheesecake" class="recipe-image">
+                        <h3 class="name">Cheesecake u čaši</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>100 g mljevenih keksa</li>
+                            <li>50 g maslaca</li>
+                            <li>200 g krem sira</li>
+                            <li>2 žlice šećera</li>
+                            <li>Jagode</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Pomiješaj kekse i maslac, stavi u čaše. Umuti krem sir sa šećerom i dodaj jagode na vrh.</p>
+                    </li>
+                    <li class="recipe-item">
+                        <img src="slike/Keksici.jpg" alt="Keksici" class="recipe-image">
+                        <h3 class="name">Čokoladni keksići</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>120 g maslaca</li>
+                            <li>100 g šećera</li>
+                            <li>100 g čokoloadnih komadića</li>
+                            <li>1 jaja</li>
+                            <li>150 g brašna</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Umuti maslac i šećer, dodaj jaje pa brašno. Umiješaj čokoladne kapljice i peci 12 min na 180°C.</p>
+                    </li>
+                    <li class="recipe-item">
+                        <img src="slike/Banana-bread.jpg" alt="Banana-bread" class="recipe-image">
+                        <h3 class="name">Banana kruh</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>2 zrele banane</li>
+                            <li>50 g maslaca</li>
+                            <li>100 g šećera</li>
+                            <li>1 jaja</li>
+                            <li>150 g brašna</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Zgnječi banane, umuti s maslacem, šećerom i jajetom. Dodaj brašno i peci 40 min na 180°C.</p>
+                    </li>
+                    <li class="recipe-item">
+                        <img src="slike/Krafne.jpg" alt="Krafne" class="recipe-image">
+                        <h3 class="name">Pečene krafne</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>250 g brašna</li>
+                            <li>150 ml mlijeka</li>
+                            <li>50 g šećera</li>
+                            <li>1 jaje</li>
+                            <li>30 g maslaca</li>
+                            <li>1 prašak za pecivo</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Umijesi tijesto, oblikuj krafne i peci 15 min na 180°C. Pospi šećerom u prahu.</p>
+                    </li>
+                    <li class="recipe-item">
+                        <img src="slike/Pita-jabuka.jpg" alt="Pita-jabuka" class="recipe-image">
+                        <h3 class="name">Pita od jabuka</h3>
+                        <h4>Sastojci:</h4>
+                        <ul class="ingredients">
+                            <li>250 g brašna</li>
+                            <li>100 g maslaca</li>
+                            <li>3 jabuke</li>
+                            <li>50 g šećera</li>
+                            <li>Cimet</li>
+                        </ul>
+                        <h4>Upute:</h4>
+                        <p class="text">Umijesi tijesto od brašna i maslaca. Posloži jabuke s cimetom i šećerom. Pecite 35 min na 180°C</p>
+                    </li>
+                </ul>
+           </div> 
+        </section>
+
+        <!--Recenzije-->
+        <section class="review-section" id="review">
+            <h2 class="section-title">Recenzije</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="review-list swiper-wrapper">
+                            <li class="review swiper-slide">
+                                <img src="slike/korisnik1.jpg" alt="Korisnik" class="user-image">
+                                <h3 class="name">Lea Sulen</h3>
+                                <i class="feedback">Brownies su ispali savršeni; mekani iznutra, a hrskavi izvana. Najbolji recept koji sam probala, a jednostavan za napraviti!</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="slike/korisnik2.jpg" alt="Korisnik" class="user-image">
+                                <h3 class="name">Filip Buovac</h3>
+                                <i class="feedback">Čokoladni keksići su nestali u jednom danu! Super su uz kavu, a meni su ispali mekani i puni čokolade jednostavno top!</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="slike/korisnik3.jpg" alt="Korisnik" class="user-image">
+                                <h3 class="name">Katarina Zubčić</h3>
+                                <i class="feedback">Cheesecake u čaši mi je favorit jer je lagan i brzo gotov. Odlično rješenje kad mi se jede nešto slatko, a nemam puno vremena.</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="slike/korisnik4.jpg" alt="Korisnik" class="user-image">
+                                <h3 class="name">Andrea Vuković</h3>
+                                <i class="feedback">Pita od jabuka me podsjetila na bakinu kuhinju. Miris cimeta i jabuka je pun pogodak, a recept je baš jednostavan.</i>
+                            </li>
+                            <li class="review swiper-slide">
+                                <img src="slike/korisnik5.jpg" alt="Korisnik" class="user-image">
+                                <h3 class="name">Tomislav Biuk</h3>
+                                <i class="feedback">Banana bread mi se baš svidio jer nije presladak i super je za doručak. Čak sam dio tijesta ispekao u malim kalupima i odlično je uspjelo.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Galerija-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Slastice korisnika</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="slike/Galerija1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="slike/Galerija2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="slike/Galerija3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="slike/Galerija4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="slike/Galerija5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="slike/Galerija6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <!--Kontakt-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Kontaktirajte Nas</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Krste Odaka 5, Zadar, 23 000</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>tviduk00@fesb.hr</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(023) 343-353</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Ponedjeljak - Petak: 9:00 - 17:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Subota - Nedjelja: Ne radimo</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Vaše ime" class="form-input" required>
+                    <input type="email" placeholder="Vaš email" class="form-input" required>
+                    <textarea placeholder="Vaša poruka" class="form-input" required></textarea>
+                    <button class="submit-button">Pošalji</button>
+                </form>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer-section" id="footer">
+            <div class="section-content">
+                <p class="copyright-text">&copy;<em> 2025 Sva prava pridržana </em><strong>Tina Viduka</strong></p>
+
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="social-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/" class="social-link" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Terms</a>
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!--Linking Swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>        
+
+    <!--Linking custom script-->
+    <script src="./js/skripta.js"></script>
+</body>
+
+</html>
